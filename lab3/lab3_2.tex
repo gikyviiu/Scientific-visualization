@@ -1,0 +1,25 @@
+\documentclass[a4paper]{article} 
+\usepackage[T1,T2A]{fontenc} 
+\usepackage[utf8]{inputenc} 
+\usepackage[english,russian]{babel} 
+\usepackage{graphicx,xcolor} 
+\usepackage[labelfont=bf,labelsep=endash]{caption} 
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry} 
+\usepackage{gnuplottex} 
+\begin{document} 
+\begin{figure}[h] 
+\centering 
+\begin{gnuplot} 
+set terminal cairolatex pdf color size 15cm,9cm 
+set label 1 '$\varphi(x) = \ 
+\frac{1}{\sqrt{2 \pi}} e^{-\frac{1}{2} x^2}$' at 1.2,0.25 
+set label 2 '$\Phi(x) = \ 
+\int_{-\infty}^x \phi(t) dt$' at 1.2,0.8  
+set key top left title '\textbf{Легенда}' 
+set xtics ( '$-\pi/2$' -pi/2, '$0$' 0, '$\pi/2$' pi/2 )  
+plot [-3:3] exp(-0.5*x**2) /sqrt(2*pi) t '$\varphi(x)$',\ 
+norm(x) t '$\Phi(x)$' 
+\end{gnuplot} 
+\caption{Внедрение иллюстрации с метками \LaTeX} 
+\end{figure} 
+\end{document} 
