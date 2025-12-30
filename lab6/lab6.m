@@ -35,7 +35,6 @@ printf("Потенциал: от %g до %g\n", phi_min, phi_max);
 NL = 7;
 c = linspace(phi_min + 0.1*(phi_max - phi_min), phi_max - 0.1*(phi_max - phi_min), NL);
 
-
 filename = 'lab6.txt';
 FID = fopen(filename, 'wt');
 if FID == -1
@@ -51,7 +50,11 @@ for k = 1:NL
     % Обход всех ячеек
     for i = 1:N-1
         for j = 1:N-1
-            % Значения потенциала в углах ячейки 
+            % Значения потенциала в углах ячейки:
+            % b (i, j+1) --- c_val (i+1, j+1)
+            %     |               |
+            % a (i, j)   --- d (i+1, j)
+            
             a = A(i, j);       
             b = A(i, j+1);     
             c_val = A(i+1, j+1); 
@@ -64,58 +67,81 @@ for k = 1:NL
             if (c_val > level) nq += 4; endif  % 0100
             if (d > level) nq += 2; endif  % 0010
 
-            
+            % Вспомогательные переменные шагов сетки для краткости
+            dx = x(i+1) - x(i);
+            dy = y(j+1) - y(j);
+
             switch (nq)
                 case {1, 14}
-                    % Линия проходит через левую и нижнюю стороны
+                    % Левая сторона (между a и b) и Нижняя сторона (между a и d)
                     x1 = x(i);
-                    y1 = (y(j) + y(j+1)) / 2;
-                    x2 = (x(i) + x(i+1)) / 2;
+                    y1 = y(j) + dy * (level - a) / (b - a);
+                    
+                    x2 = x(i) + dx * (level - a) / (d - a);
                     y2 = y(j);
+                    
                     fprintf(FID, '%.6g %.6g %.6g\n%.6g %.6g %.6g\n\n', x1, y1, level, x2, y2, level);
                     cnt++;
+                    
                 case {2, 13}
-                    % Через нижнюю и правую
-                    x1 = (x(i) + x(i+1)) / 2;
+                    % Нижняя сторона (между a и d) и Правая сторона (между d и c_val)
+                    x1 = x(i) + dx * (level - a) / (d - a);
                     y1 = y(j);
+                    
                     x2 = x(i+1);
-                    y2 = (y(j) + y(j+1)) / 2;
+                    y2 = y(j) + dy * (level - d) / (c_val - d);
+                    
                     fprintf(FID, '%.6g %.6g %.6g\n%.6g %.6g %.6g\n\n', x1, y1, level, x2, y2, level);
                     cnt++;
+                    
                 case {3, 12}
-                    % Через левую и правую
+                    % Левая сторона (между a и b) и Правая сторона (между d и c_val)
                     x1 = x(i);
-                    y1 = (y(j) + y(j+1)) / 2;
+                    y1 = y(j) + dy * (level - a) / (b - a);
+                    
                     x2 = x(i+1);
-                    y2 = (y(j) + y(j+1)) / 2;
+                    y2 = y(j) + dy * (level - d) / (c_val - d);
+                    
                     fprintf(FID, '%.6g %.6g %.6g\n%.6g %.6g %.6g\n\n', x1, y1, level, x2, y2, level);
                     cnt++;
+                    
                 case {4, 11}
-                    % Через правую и верхнюю
+                    % Правая сторона (между d и c_val) и Верхняя сторона (между b и c_val)
                     x1 = x(i+1);
-                    y1 = (y(j) + y(j+1)) / 2;
-                    x2 = (x(i) + x(i+1)) / 2;
+                    y1 = y(j) + dy * (level - d) / (c_val - d);
+                    
+                    x2 = x(i) + dx * (level - b) / (c_val - b);
                     y2 = y(j+1);
+                    
                     fprintf(FID, '%.6g %.6g %.6g\n%.6g %.6g %.6g\n\n', x1, y1, level, x2, y2, level);
                     cnt++;
+                    
                 case {5, 10}
+                    % Седловая точка (обычно требует уточнения, оставляем пропуск как в оригинале)
                     ;
+                    
                 case {6, 9}
-                    % Через нижнюю и верхнюю
-                    x1 = (x(i) + x(i+1)) / 2;
+                    % Нижняя сторона (между a и d) и Верхняя сторона (между b и c_val)
+                    x1 = x(i) + dx * (level - a) / (d - a);
                     y1 = y(j);
-                    x2 = (x(i) + x(i+1)) / 2;
+                    
+                    x2 = x(i) + dx * (level - b) / (c_val - b);
                     y2 = y(j+1);
+                    
                     fprintf(FID, '%.6g %.6g %.6g\n%.6g %.6g %.6g\n\n', x1, y1, level, x2, y2, level);
                     cnt++;
+                    
                 case {7, 8}
-                    % Через левую и верхнюю
+                    % Левая сторона (между a и b) и Верхняя сторона (между b и c_val)
                     x1 = x(i);
-                    y1 = (y(j) + y(j+1)) / 2;
-                    x2 = (x(i) + x(i+1)) / 2;
+                    y1 = y(j) + dy * (level - a) / (b - a);
+                    
+                    x2 = x(i) + dx * (level - b) / (c_val - b);
                     y2 = y(j+1);
+                    
                     fprintf(FID, '%.6g %.6g %.6g\n%.6g %.6g %.6g\n\n', x1, y1, level, x2, y2, level);
                     cnt++;
+                    
                 otherwise
                     ;
             endswitch
@@ -132,8 +158,14 @@ endfor
 fclose(FID);
 
 
- clf;
- [CC, HH] = contour(x, y, A', c, "linewidth", 1.5);
- clabel(CC, HH, "fontsize", 9);
- title("Контрольный график (Octave)", "fontsize", 11);
- axis equal; grid on;
+
+content = fileread('lab6.txt');
+printf("\n=== Содержимое файла ===\n");
+printf("%s", content);
+
+% Отрисовка для проверки (опционально)
+clf;
+[CC, HH] = contour(x, y, A', c, "linewidth", 1.5);
+clabel(CC, HH, "fontsize", 9);
+title("Контрольный график (Octave)", "fontsize", 11);
+axis equal; grid on;
