@@ -1,0 +1,200 @@
+SciDAVis 2.2.7 project file
+<scripting-lang>	muParser
+<windows>	3
+<table>
+8982
+<table creation_time="2025-30-12 19:02:43:646" caption_spec="%n%C{ - }%c" name="Table1" columns="3" rows="30"><comment><![CDATA[]]></comment><column creation_time="2025-30-12 19:02:43:646" caption_spec="%n%C{ - }%c" name="T" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2025-30-12 19:02:43:646" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2025-30-12 19:02:43:646" caption_spec="%n%C{ - }%c" name="OutputFilter" format="f" digits="14" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">1.0000000000000000e+01</row><row type="TypeDouble" index="2" invalid="no">2.0000000000000000e+01</row><row type="TypeDouble" index="3" invalid="no">3.0000000000000000e+01</row><row type="TypeDouble" index="4" invalid="no">4.0000000000000000e+01</row><row type="TypeDouble" index="5" invalid="no">4.5000000000000000e+01</row><row type="TypeDouble" index="6" invalid="no">5.0000000000000000e+01</row><row type="TypeDouble" index="7" invalid="no">6.0000000000000000e+01</row><row type="TypeDouble" index="8" invalid="no">6.5000000000000000e+01</row><row type="TypeDouble" index="9" invalid="no">7.0000000000000000e+01</row><row type="TypeDouble" index="10" invalid="no">8.0000000000000000e+01</row><row type="TypeDouble" index="11" invalid="no">9.0000000000000000e+01</row><row type="TypeDouble" index="12" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="13" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="14" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="15" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="16" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="17" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="18" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="19" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="20" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="21" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="22" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="23" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="24" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="25" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="26" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="27" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="28" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="29" invalid="yes">0.0000000000000000e+00</row></column><column creation_time="2025-30-12 19:02:43:647" caption_spec="%n%C{ - }%c" name="R" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2025-30-12 19:02:43:647" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2025-30-12 19:02:43:647" caption_spec="%n%C{ - }%c" name="OutputFilter" format="f" digits="14" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">4.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">6.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">8.0000000000000000e+00</row><row type="TypeDouble" index="3" invalid="no">1.0000000000000000e+01</row><row type="TypeDouble" index="4" invalid="no">1.4000000000000000e+01</row><row type="TypeDouble" index="5" invalid="no">1.5000000000000000e+01</row><row type="TypeDouble" index="6" invalid="no">1.7000000000000000e+01</row><row type="TypeDouble" index="7" invalid="no">2.2000000000000000e+01</row><row type="TypeDouble" index="8" invalid="no">2.7000000000000000e+01</row><row type="TypeDouble" index="9" invalid="no">3.0000000000000000e+01</row><row type="TypeDouble" index="10" invalid="no">3.7000000000000000e+01</row><row type="TypeDouble" index="11" invalid="no">4.7000000000000000e+01</row><row type="TypeDouble" index="12" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="13" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="14" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="15" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="16" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="17" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="18" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="19" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="20" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="21" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="22" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="23" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="24" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="25" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="26" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="27" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="28" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="29" invalid="yes">0.0000000000000000e+00</row></column><column creation_time="2025-30-12 19:42:11:755" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2025-30-12 19:42:11:755" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2025-30-12 19:42:11:755" caption_spec="%n%C{ - }%c" name="OutputFilter" format="f" digits="14" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="29">col(&quot;T&quot;)*3-10</formula><row type="TypeDouble" index="0" invalid="no">-1.0000000000000000e+01</row><row type="TypeDouble" index="1" invalid="no">2.0000000000000000e+01</row><row type="TypeDouble" index="2" invalid="no">5.0000000000000000e+01</row><row type="TypeDouble" index="3" invalid="no">8.0000000000000000e+01</row><row type="TypeDouble" index="4" invalid="no">1.1000000000000000e+02</row><row type="TypeDouble" index="5" invalid="no">1.2500000000000000e+02</row><row type="TypeDouble" index="6" invalid="no">1.4000000000000000e+02</row><row type="TypeDouble" index="7" invalid="no">1.7000000000000000e+02</row><row type="TypeDouble" index="8" invalid="no">1.8500000000000000e+02</row><row type="TypeDouble" index="9" invalid="no">2.0000000000000000e+02</row><row type="TypeDouble" index="10" invalid="no">2.3000000000000000e+02</row><row type="TypeDouble" index="11" invalid="no">2.6000000000000000e+02</row><row type="TypeDouble" index="12" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="13" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="14" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="15" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="16" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="17" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="18" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="19" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="20" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="21" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="22" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="23" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="24" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="25" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="26" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="27" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="28" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="29" invalid="no">0.0000000000000000e+00</row></column><column_width column="0">120</column_width><column_width column="1">151</column_width><column_width column="2">120</column_width></table>
+geometry	320	549	160	31	minimized	active
+
+</table>
+<multiLayer>
+Graph1	1	1	вторник, 30 декабря 2025 г. 19:27:13 RTZ 2 (зима)
+geometry	160	549	160	31	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	432	271
+Alignement	0	0
+<graph>
+ggeometry	5	5	473	329
+PlotTitle	Растворимость соли NaNO3 как функция температуры	#ff000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	T, Сo	R			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Table1_T	Table1_R	2	1	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	29	1
+FunctionCurve	0,PolyFit1,x,0,90	100			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	1980334288	282	1
+<formula>
+a0=5.03051336038844
+a1=-0.00020080988152904
+a2=0.00508622426500705
+
+a0+a1*x+a2*x^2
+</formula>
+FunctionCurve	0,PolyFit2,x,0,90	100			0	1	#ffc3ff00	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	1927268272	282	1
+<formula>
+a0=4.21123994410243
+a1=0.144421847828578
+a2=0.00094495173847065
+a3=3.04305397782755e-05
+
+a0+a1*x+a2*x^2+a3*x^3
+</formula>
+FunctionCurve	0,LinearFit1,x,0,90	2			0	1	#ff0000ff	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	2063354192	282	1
+<formula>
+B=-1.42601547388782
+A=0.453771760154739
+
+A*x+B
+</formula>
+scale	0	-10	50	0	8	5	0	0
+scale	1	0	50	0	8	5	0	0
+scale	2	-20	100	0	8	5	0	0
+scale	3	-20	100	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Graph2	1	1	вторник, 30 декабря 2025 г. 19:43:22 RTZ 2 (зима)
+geometry	0	549	160	31	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<graph>
+ggeometry	4	6	630	402
+PlotTitle	Растворимость соли NaNO3 как функция температуры<br>Формула -> col("T")*3-10<br>	#ff000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	T, Сo	R			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	MS Shell Dlg 2	11	50	0	0	0
+ScaleFont0	MS Shell Dlg 2	14	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	14	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	14	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	14	75	0	0	0
+AxisFont0	MS Shell Dlg 2	14	50	0	0	0
+AxisFont1	MS Shell Dlg 2	14	50	0	0	0
+AxisFont2	MS Shell Dlg 2	14	50	0	0	0
+AxisFont3	MS Shell Dlg 2	14	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Table1_T	Table1_R	2	1	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	29	1
+curve	Table1_T	Table1_1	2	1	#ffff0000	0	1	7	2	#ffff0000	#ffff0000	0	#ff000000	0	1	0	64		2	0	0	29	1
+scale	0	-50	300	0	8	5	0	0
+scale	1	-500	100	0	8	5	0	0
+scale	2	-20	100	0	8	5	0	0
+scale	3	-20	100	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<log>
+[вторник, 30 декабря 2025 г. 19:21:57 RTZ 2 (зима)	Plot: ''Graph1'']
+Polynomial fit of dataset: Table1_P, using function: a0+a1*x+a2*x^2+a3*x^3
+Y standard errors: Unknown
+From x = 132 to x = 240
+a0  = -2 828,87135738698 +/- 803,334499708859
+a1  = 55,2702923136805 +/- 13,4250247861827
+a2  = -0,328740193318986 +/- 0,0734001512923788
+a3  = 0,000688844124336239 +/- 0,00013142933421747
+--------------------------------------------------------------------------------------
+Chi^2 = 1 416,68793759984
+R^2 = 0,999685521143739
+---------------------------------------------------------------------------------------
+[вторник, 30 декабря 2025 г. 19:22:49 RTZ 2 (зима)	Plot: ''Graph1'']
+Linear Regression fit of dataset: Table1_P, using function: A*x+B
+Y standard errors: Unknown
+From x = 132 to x = 240
+B (y-intercept) = -522,594226001747 +/- 107,518828126418
+A (slope) = 5,91204791738705 +/- 0,569640006261389
+--------------------------------------------------------------------------------------
+Chi^2 = 46 138,9252580189
+R^2 = 0,989758000997138
+---------------------------------------------------------------------------------------
+[вторник, 30 декабря 2025 г. 19:23:25 RTZ 2 (зима)	Plot: ''Graph1'']
+Polynomial fit of dataset: Table1_P, using function: a0+a1*x+a2*x^2
+Y standard errors: Unknown
+From x = 132 to x = 240
+a0  = 1 330,03744542916 +/- 248,69202677182
+a1  = -14,7200105560055 +/- 2,73912973274946
+a2  = 0,0554743695819177 +/- 0,00734069491383671
+--------------------------------------------------------------------------------------
+Chi^2 = 6 281,22492635953
+R^2 = 0,998605682748942
+---------------------------------------------------------------------------------------
+[вторник, 30 декабря 2025 г. 19:28:35 RTZ 2 (зима)	Plot: ''Graph1'']
+Polynomial fit of dataset: Table1_R, using function: a0+a1*x+a2*x^2
+Y standard errors: Unknown
+From x = 0 to x = 90
+a0  = 5,03051336038844 +/- 0,666857011929364
+a1  = -0,00020080988152904 +/- 0,0325784250894436
+a2  = 0,00508622426500705 +/- 0,000350011082719826
+--------------------------------------------------------------------------------------
+Chi^2 = 6,62232465666382
+R^2 = 0,998999195306534
+---------------------------------------------------------------------------------------
+[вторник, 30 декабря 2025 г. 19:28:50 RTZ 2 (зима)	Plot: ''Graph1'']
+Polynomial fit of dataset: Table1_R, using function: a0+a1*x+a2*x^2+a3*x^3
+Y standard errors: Unknown
+From x = 0 to x = 90
+a0  = 4,21123994410243 +/- 0,587682188407972
+a1  = 0,144421847828578 +/- 0,0580645683019254
+a2  = 0,00094495173847065 +/- 0,00152728945647728
+a3  = 3,04305397782755e-05 +/- 1,10511700728679e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 3,39991458479204
+R^2 = 0,99948618488971
+---------------------------------------------------------------------------------------
+[вторник, 30 декабря 2025 г. 19:38:57 RTZ 2 (зима)	Plot: ''Graph1'']
+Linear Regression fit of dataset: Table1_R, using function: A*x+B
+Y standard errors: Unknown
+From x = 0 to x = 90
+B (y-intercept) = -1,42601547388782 +/- 2,33333923194836
+A (slope) = 0,453771760154739 +/- 0,0433601825290805
+--------------------------------------------------------------------------------------
+Chi^2 = 162,002417794971
+R^2 = 0,975517240774525
+---------------------------------------------------------------------------------------
+</log>

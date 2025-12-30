@@ -1,0 +1,223 @@
+SciDAVis 2.2.7 project file
+<scripting-lang>	muParser
+<windows>	4
+<table>
+8969
+<table creation_time="2025-13-11 16:32:46:000" caption_spec="%n%C{ - }%c" name="Table1" columns="6" rows="10"><comment><![CDATA[]]></comment><column creation_time="2025-13-11 16:32:46:394" caption_spec="%n%C{ - }%c" name="I, mA" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2025-13-11 17:04:34:167" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2025-13-11 17:04:34:167" caption_spec="%n%C{ - }%c" name="OutputFilter" format="f" digits="1" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">3.0000000000000000e+01</row><row type="TypeDouble" index="1" invalid="no">2.0000000000000000e+01</row><row type="TypeDouble" index="2" invalid="no">1.5000000000000000e+01</row><row type="TypeDouble" index="3" invalid="no">1.2000000000000000e+01</row><row type="TypeDouble" index="4" invalid="no">1.0000000000000000e+01</row><row type="TypeDouble" index="5" invalid="no">8.0000000000000000e+00</row><row type="TypeDouble" index="6" invalid="no">7.7999999999999998e+00</row><row type="TypeDouble" index="7" invalid="no">6.7999999999999998e+00</row><row type="TypeDouble" index="8" invalid="no">4.7999999999999998e+00</row><row type="TypeDouble" index="9" invalid="no">5.0000000000000000e+00</row></column><column creation_time="2025-13-11 16:32:46:395" caption_spec="%n%C{ - }%c" name="U, V" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2025-13-11 16:32:46:395" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2025-13-11 16:32:46:395" caption_spec="%n%C{ - }%c" name="OutputFilter" format="f" digits="3" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.7100000000000001e-01</row><row type="TypeDouble" index="1" invalid="no">2.3700000000000001e+00</row><row type="TypeDouble" index="2" invalid="no">3.4700000000000002e+00</row><row type="TypeDouble" index="3" invalid="no">4.1200000000000001e+00</row><row type="TypeDouble" index="4" invalid="no">4.5800000000000001e+00</row><row type="TypeDouble" index="5" invalid="no">4.9100000000000001e+00</row><row type="TypeDouble" index="6" invalid="no">5.1799999999999997e+00</row><row type="TypeDouble" index="7" invalid="no">5.3700000000000001e+00</row><row type="TypeDouble" index="8" invalid="no">5.5400000000000000e+00</row><row type="TypeDouble" index="9" invalid="no">5.6600000000000001e+00</row></column><column creation_time="2025-13-11 17:10:09:058" caption_spec="%n%C{ - }%c" name="R, kOm" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2025-13-11 17:10:09:058" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2025-13-11 17:10:09:058" caption_spec="%n%C{ - }%c" name="OutputFilter" format="f" digits="14" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="9">col(&quot;U, V&quot;)/col(&quot;I, mA&quot;)</formula><row type="TypeDouble" index="0" invalid="no">5.7000000000000002e-03</row><row type="TypeDouble" index="1" invalid="no">1.1850000000000001e-01</row><row type="TypeDouble" index="2" invalid="no">2.3133333333333334e-01</row><row type="TypeDouble" index="3" invalid="no">3.4333333333333332e-01</row><row type="TypeDouble" index="4" invalid="no">4.5800000000000002e-01</row><row type="TypeDouble" index="5" invalid="no">6.1375000000000002e-01</row><row type="TypeDouble" index="6" invalid="no">6.6410256410256407e-01</row><row type="TypeDouble" index="7" invalid="no">7.8970588235294126e-01</row><row type="TypeDouble" index="8" invalid="no">1.1541666666666668e+00</row><row type="TypeDouble" index="9" invalid="no">1.1320000000000001e+00</row></column><column creation_time="2025-13-11 17:11:40:789" caption_spec="%n%C{ - }%c" name="N_R, mW" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2025-13-11 17:11:40:789" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2025-13-11 17:11:40:789" caption_spec="%n%C{ - }%c" name="OutputFilter" format="f" digits="14" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="9">col(&quot;U, V&quot;)*col(&quot;I, mA&quot;)</formula><row type="TypeDouble" index="0" invalid="no">5.1300000000000008e+00</row><row type="TypeDouble" index="1" invalid="no">4.7400000000000006e+01</row><row type="TypeDouble" index="2" invalid="no">5.2050000000000004e+01</row><row type="TypeDouble" index="3" invalid="no">4.9439999999999998e+01</row><row type="TypeDouble" index="4" invalid="no">4.5799999999999997e+01</row><row type="TypeDouble" index="5" invalid="no">3.9280000000000001e+01</row><row type="TypeDouble" index="6" invalid="no">4.0403999999999996e+01</row><row type="TypeDouble" index="7" invalid="no">3.6515999999999998e+01</row><row type="TypeDouble" index="8" invalid="no">2.6591999999999999e+01</row><row type="TypeDouble" index="9" invalid="no">2.8300000000000001e+01</row></column><column creation_time="2025-13-11 17:12:09:534" caption_spec="%n%C{ - }%c" name="N, mW" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2025-13-11 17:12:09:534" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2025-13-11 17:12:09:534" caption_spec="%n%C{ - }%c" name="OutputFilter" format="f" digits="14" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="9">6.7493*col(&quot;I, mA&quot;)</formula><row type="TypeDouble" index="0" invalid="no">2.0247899999999998e+02</row><row type="TypeDouble" index="1" invalid="no">1.3498599999999999e+02</row><row type="TypeDouble" index="2" invalid="no">1.0123949999999999e+02</row><row type="TypeDouble" index="3" invalid="no">8.0991600000000005e+01</row><row type="TypeDouble" index="4" invalid="no">6.7492999999999995e+01</row><row type="TypeDouble" index="5" invalid="no">5.3994399999999999e+01</row><row type="TypeDouble" index="6" invalid="no">5.2644539999999999e+01</row><row type="TypeDouble" index="7" invalid="no">4.5895240000000001e+01</row><row type="TypeDouble" index="8" invalid="no">3.2396639999999998e+01</row><row type="TypeDouble" index="9" invalid="no">3.3746499999999997e+01</row></column><column creation_time="2025-13-11 17:13:48:191" caption_spec="%n%C{ - }%c" name="КПД" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2025-13-11 17:13:48:191" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2025-13-11 17:13:48:191" caption_spec="%n%C{ - }%c" name="OutputFilter" format="f" digits="14" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="9">col(&quot;N_R, mW&quot;)/col(&quot;N, mW&quot;)</formula><row type="TypeDouble" index="0" invalid="no">2.5335960766301697e-02</row><row type="TypeDouble" index="1" invalid="no">3.5114752641014629e-01</row><row type="TypeDouble" index="2" invalid="no">5.1412739098869520e-01</row><row type="TypeDouble" index="3" invalid="no">6.1043367460329212e-01</row><row type="TypeDouble" index="4" invalid="no">6.7858889069977624e-01</row><row type="TypeDouble" index="5" invalid="no">7.2748285007334101e-01</row><row type="TypeDouble" index="6" invalid="no">7.6748699865171199e-01</row><row type="TypeDouble" index="7" invalid="no">7.9563806616982491e-01</row><row type="TypeDouble" index="8" invalid="no">8.2082586342287345e-01</row><row type="TypeDouble" index="9" invalid="no">8.3860548501326071e-01</row></column><column_width column="0">143</column_width><column_width column="1">120</column_width><column_width column="2">120</column_width><column_width column="3">120</column_width><column_width column="4">120</column_width><column_width column="5">120</column_width></table>
+geometry	7	9	1113	412	active
+
+</table>
+<multiLayer>
+Graph5	1	1	четверг, 13 ноября 2025 г. 17:25:27 Russia TZ 2 Standard Time
+geometry	1386	0	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	429	263
+Alignement	0	0
+<graph>
+ggeometry	5	5	474	331
+PlotTitle		#ff000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	X Axis Title	Y Axis Title			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	5124	4	5124	4
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Table1_R, kOm	Table1_N_R, mW	1	0	#ff000000	0	1	7	2	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	9	1
+FunctionCurve	0,F1,x,0,1.2	100			0	1	#ff008000	0	2	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	-1995010816	627	1
+<formula>
+(6.75^2 * x) / (x + 0.22)^2
+
+
+
+</formula>
+scale	0	0	60	0	8	5	0	0
+scale	1	0	60	0	8	5	0	0
+scale	2	-0.2	1.2	0	8	5	0	0
+scale	3	-0.2	1.2	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<legend>	0.646666666666667	58.2978723404255	MS Shell Dlg 2	8	50	0	0	0	#ff000000	1	0	#00ffffff	0	\c{1}Table1_N_R, mW	\c{2}F1: (6.75^2 * x) / (x + 0.22)^2</legend>
+</graph>
+</multiLayer>
+<multiLayer>
+Graph2	1	1	вторник, 30 декабря 2025 г. 19:54:09 RTZ 2 (зима)
+geometry	0	460	160	31	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	864	284
+Alignement	0	0
+<graph>
+ggeometry	2	4	377	234
+PlotTitle	Title	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	I, mA<br>	U, V			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Table1_I, mA	Table1_U, V	1	0	#ff000000	0	1	7	1	#ff000000	#ffffffff	0	#ff000000	0	1	0	64		2	0	0	9	1
+FunctionCurve	0,LinearFit1,x,4.8,30	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	-1983938928	627	1
+<formula>
+B=6.74927992974022
+A=-0.218775538504206
+
+A*x+B
+
+</formula>
+scale	0	0	6	0	8	5	0	0
+scale	1	0	6	0	8	5	0	0
+scale	2	0	35	0	8	5	0	0
+scale	3	0	35	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<legend>	20.3663793103448	5.75280898876404	MS Shell Dlg 2	8	50	0	0	0	#ff000000	1	0	#05ffffff	5	\c{1}U(I)	\c{2}U=6,798-0,2213*I</legend>
+</graph>
+</multiLayer>
+<multiLayer>
+Graph3	1	1	вторник, 30 декабря 2025 г. 19:59:46 RTZ 2 (зима)
+geometry	160	460	160	31	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	432	271
+Alignement	0	0
+<graph>
+ggeometry	4	4	376	234
+PlotTitle	Title	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	R, k0m	Nr, mW			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Table1_R, kOm	Table1_N_R, mW	1	0	#ff000000	0	1	7	2	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	9	1
+FunctionCurve	0,F1,x,0,1.2	100			0	1	#ff11c638	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	-1983931632	627	1
+<formula>
+6.798^2*x/(x+0.22)^2
+
+</formula>
+scale	0	0	60	0	8	5	0	0
+scale	1	0	60	0	8	5	0	0
+scale	2	-0.2	1.2	0	8	5	0	0
+scale	3	-0.2	1.2	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<legend>	0.625471698113208	59.7744360902256	MS Shell Dlg 2	8	50	0	0	0	#ff000000	1	0	#00ffffff	0	\c{1}эксперимент	\c{2}F1: 6.798^2*x/(x+0.22)^2</legend>
+</graph>
+</multiLayer>
+<log>
+[четверг, 13 ноября 2025 г. 16:43:40 Russia TZ 2 Standard Time	Plot: ''Graph3'']
+Linear Regression fit of dataset: Table1_2, using function: A*x+B
+Y standard errors: Unknown
+From x = 0 to x = 80
+B (y-intercept) = 68,3724759242 +/- 2,03024965958345
+A (slope) = 0,919105312208761 +/- 0,0408267402349174
+--------------------------------------------------------------------------------------
+Chi^2 = 111,781298539919
+R^2 = 0,99924093073835
+---------------------------------------------------------------------------------------
+[четверг, 13 ноября 2025 г. 16:44:37 Russia TZ 2 Standard Time	Plot: ''Graph3'']
+Polynomial fit of dataset: Table1_2, using function: a0+a1*x+a2*x^2+a3*x^3
+Y standard errors: Unknown
+From x = 0 to x = 80
+a0  = 72,4490015774411 +/- 1,80722143428628
+a1  = 0,660510273136208 +/- 0,201188790663283
+a2  = 0,00110222137059922 +/- 0,00587253430862565
+a3  = 2,96126733684333e-05 +/- 4,73981125942331e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 30,8216121327825
+R^2 = 0,999790700782062
+---------------------------------------------------------------------------------------
+[четверг, 13 ноября 2025 г. 17:08:25 Russia TZ 2 Standard Time	Plot: ''Graph3'']
+Linear Regression fit of dataset: Table1_2, using function: A*x+B
+Y standard errors: Unknown
+From x = 4,8 to x = 30
+B (y-intercept) = 6,74927992974022 +/- 0,0533635467439094
+A (slope) = -0,218775538504206 +/- 0,00378462966887466
+--------------------------------------------------------------------------------------
+Chi^2 = 0,064453564389387
+R^2 = 0,999674710960135
+---------------------------------------------------------------------------------------
+[вторник, 30 декабря 2025 г. 19:54:39 RTZ 2 (зима)	Plot: ''Graph2'']
+Linear Regression fit of dataset: Table1_U, V, using function: A*x+B
+Y standard errors: Unknown
+From x = 4,8 to x = 30
+B (y-intercept) = 6,74927992974022 +/- 0,0533635467439094
+A (slope) = -0,218775538504206 +/- 0,00378462966887466
+--------------------------------------------------------------------------------------
+Chi^2 = 0,064453564389387
+R^2 = 0,999674710960135
+---------------------------------------------------------------------------------------
+</log>
