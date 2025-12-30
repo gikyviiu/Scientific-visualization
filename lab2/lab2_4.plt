@@ -1,3 +1,4 @@
+set encoding utf8
 reset
 
 set title "Поверхность matrix.dat"

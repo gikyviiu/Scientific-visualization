@@ -1,3 +1,4 @@
+set encoding utf8
 reset
 
 set title "Поверхность data3d.dat"

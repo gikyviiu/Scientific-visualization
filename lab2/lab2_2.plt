@@ -1,3 +1,4 @@
+set encoding utf8
 reset
 
 $data << EOD
